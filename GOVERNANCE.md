@@ -25,9 +25,73 @@ The ModelPack project leadership embraces the following values:
 
 - **Participation**: Responsibilities within the project are earned through participation, and there is a clear path up the contributor ladder into leadership positions.
 
+## Membership and Contributor Ladders
+
+The ModelPack project is a community-driven open source project. We welcome contributions from anyone who shares our values and wants to help us achieve our mission. Below we lay out the different contributor roles in the ModelPack project, detailing the responsibilities, qualifications, and perks that come with each one.
+
+| Role            | Responsibilities                                                       | Qualifications                                                               | Privileges                                                               |
+| --------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Contributor** | Follow our Code of Conduct & Contribution Guide                        | Anyone who participates in the community                                     | Can be assigned issues and request reviews                               |
+| **Reviewer**    | Review PRs in your area of expertise and maintain quality              | A Contributor with a solid track record of high-quality reviews              | Approve PRs in specific areas and recommend others for Reviewer status   |
+| **Maintainer**  | Merge PRs, coordinate releases, and help shape the project's direction | Long-term contributions, leadership, and a deep understanding of the project | Merge code, represent the project publicly, and nominate new Maintainers |
+
+### Contributor
+
+A **Contributor** is anyone who adds value to the project. This can be through code, but it doesn't have to be! This role is often where new or occasional contributors start.
+
+- **Responsibilities**:
+
+  - Follow the project's [Code of Conduct](code-of-conduct.md).
+  - Stick to the [Contribution Guide](CONTRIBUTING.md).
+
+- **Qualifications**:
+
+  - Open to anyone who wants to be part of the community.
+  - Contributions can include things like:
+    - Joining in on community discussions.
+    - Reporting bugs or giving feedback.
+    - Testing new releases and sharing your thoughts.
+    - Helping out with documentation.
+    - Attending or speaking at community events.
+    - Submitting pull requests (PRs).
+    - Helping other users or answering questions.
+    - Spreading the word about the project.
+
+- **Privileges**:
+  - You can be assigned to issues and ask for reviews on your contributions.
+
+### Reviewer
+
+A **Reviewer** is a Contributor who takes ownership of a specific part of the project (like code, docs, or tests). They play a key role in keeping our quality high by reviewing and approving changes in their area.
+
+- **Responsibilities**:
+
+  - Regularly review PRs in your area of expertise.
+  - Make sure changes meet our coding standards, don't introduce bugs, and are good for the project.
+  - Help other contributors become Reviewers.
+  - Help triage issues.
+
+- **Qualifications**:
+
+  - You must already be a Contributor.
+  - Proven track record of high-quality reviews and contributions.
+  - Deep understanding of your specific area.
+  - Commitment to maintaining responsibility for your designated area.
+  - Supportive of new and occasional contributors, helping refine PRs for merging.
+
+- **Privileges**:
+
+  - You'll have GitHub permissions to approve PRs and manage labels in your specific areas.
+  - You can recommend and review other Contributors for the Reviewer role.
+
+- **How to Become a Reviewer**:
+
+  1. Submit an issue to the community repository to request for becoming a reviewer, with a list of your contribution and specific area of expertise.
+  2. Get approval from at least two existing Maintainers.
+
 ## Maintainers
 
-ModelPack maintainers have write access to the project repositories in [the ModelPack GitHub organization](https://github.com/modelpack/). They can merge patches and are expected to review large or critical patches personally. The current maintainers can be found in [MAINTAINERS.md](./MAINTAINERS.md). Maintainers collectively manage the project's resources and contributors. Additional supplementary repositories can include a separate list of maintainers (such as for tools etc) which are not part of the primary ModelPack project maintainers.
+Maintainers have write access to the project repositories in [the ModelPack GitHub organization](https://github.com/modelpack/). They can merge patches and are expected to review large or critical patches personally. The current maintainers can be found in [MAINTAINERS.md](./MAINTAINERS.md). Maintainers collectively manage the project's resources and contributors. Additional supplementary repositories can include a separate list of maintainers (such as for tools etc) which are not part of the primary ModelPack project maintainers.
 
 This privilege is granted with some expectation of responsibility: maintainers are people who care about the ModelPack project and want to help it grow and improve. A maintainer is not just someone who can make changes, but someone who has demonstrated good judgement and an ability to collaborate with the team, get the most knowledgeable people to review code and docs, contribute high-quality code, and follow through to fix issues (in code or tests).
 
